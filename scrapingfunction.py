@@ -40,4 +40,5 @@ def get_book_info(book_url):
             book_data[key] = tag.get_text().strip()
 
     # ポイント：指定した要素を取り出す
-    print(book_data['発売日'])
+    print(book_data['著者'])
+   
